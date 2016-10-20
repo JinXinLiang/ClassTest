@@ -13,6 +13,7 @@
 		7341735B1DB869F000576B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734173591DB869F000576B58 /* Main.storyboard */; };
 		7341735D1DB869F000576B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7341735C1DB869F000576B58 /* Assets.xcassets */; };
 		734173601DB869F000576B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7341735E1DB869F000576B58 /* LaunchScreen.storyboard */; };
+		734173691DB86E3600576B58 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734173681DB86E3600576B58 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7341735C1DB869F000576B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7341735F1DB869F000576B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734173611DB869F000576B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734173671DB86E3600576B58 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		734173681DB86E3600576B58 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				734173531DB869F000576B58 /* AppDelegate.h */,
 				734173541DB869F000576B58 /* AppDelegate.m */,
+				734173671DB86E3600576B58 /* MainViewController.h */,
+				734173681DB86E3600576B58 /* MainViewController.m */,
 				734173561DB869F000576B58 /* ViewController.h */,
 				734173571DB869F000576B58 /* ViewController.m */,
 				734173591DB869F000576B58 /* Main.storyboard */,
@@ -152,6 +157,7 @@
 				734173581DB869F000576B58 /* ViewController.m in Sources */,
 				734173551DB869F000576B58 /* AppDelegate.m in Sources */,
 				734173521DB869F000576B58 /* main.m in Sources */,
+				734173691DB86E3600576B58 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				734173661DB869F000576B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
